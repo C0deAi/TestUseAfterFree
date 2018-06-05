@@ -1,4 +1,8 @@
+#include <stdio.h>
+#include <unistd.h>
 #include <stdlib.h>
+#include <string.h>
+#include <assert.h>
 #define BUFSIZER1 512
 #define BUFSIZER2 ((BUFSIZER1 / 2) - 8)
 int main(int argc, char **argv) {
